@@ -6,9 +6,17 @@ layout: default
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        {% if site.site-name %}
+          <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.site-name}}"></a>
+        {% else %}
+          <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        {% endif %}
       </div>
-      <div class="author-name">{{site.author}}</div>
+      {% if site.site-name %}
+        <div class="author-name">{{site.site-name}}</div>
+      {% else %}
+        <div class="author-name">{{site.author}}</div>
+      {% endif %}
       <p>{{site.about-author}}</p>
     </div>
   </header> <!-- End Header -->
