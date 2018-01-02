@@ -1,3 +1,7 @@
+# This is Carl Brown's fork of Flexible-Jekyll
+
+I use it on my own blog.  My fork is [here](https://github.com/carlbrown/flexible-jekyll) of the master repo [which is here](https://github.com/carlbrown/flexible-jekyll).
+
 # Flexible-Jekyll is a simple and clean theme for Jekyll
 
 ![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
