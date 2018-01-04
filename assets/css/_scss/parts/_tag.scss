@@ -28,6 +28,8 @@
       padding: 5px 10px;
       border: 1px solid $gray;
       background-color: $lightgray;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
       transition: all .3s;
       &:hover {
         background-color: $gray;
