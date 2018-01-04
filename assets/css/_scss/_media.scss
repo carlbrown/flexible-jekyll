@@ -24,6 +24,46 @@
   }
 }
 
+/* Short screens - landscape phones and tiny chromebooks */
+@media only screen and (max-height : 550px) and (min-width : 768px) {
+  .contact-title, .copyright {
+    display: none;
+  }
+}
+
+/* Even Shorter screens - landscape phones and tiny chromebooks */
+@media only screen and (max-height : 460px) and (min-width : 768px) {
+  .author-about {
+    display: none;
+  }
+}
+
+@media only screen and (max-height : 390px) and (min-width : 768px) {
+  .about {
+     .cover-author-image {
+       width: 100px;
+       height: 100px;
+     }
+     img {
+        width: 100px;
+        height: 100px;
+     }
+   }
+}
+
+@media only screen and (max-height : 280px) and (min-width : 768px) {
+  .about {
+     .cover-author-image {
+       width: 50px;
+       height: 50px;
+     }
+     img {
+        width: 50px;
+        height: 50px;
+     }
+   }
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   .sidebar {
