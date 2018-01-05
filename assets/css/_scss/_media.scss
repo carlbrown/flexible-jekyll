@@ -53,6 +53,10 @@
 
 @media only screen and (max-height : 280px) and (min-width : 768px) {
   .about {
+      margin: 0 0 0 0;
+	  .author-name::after {
+	      display: none;
+	  }
      .cover-author-image {
        width: 50px;
        height: 50px;
